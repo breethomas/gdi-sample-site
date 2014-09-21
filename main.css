@@ -1,0 +1,118 @@
+/* typography */
+
+h1, h2, p, a {
+  font-family: 'Raleway';
+  font-weight: 200;
+}
+
+h2 {
+  color: #ED1581;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #00A5E7;
+  font-weight: 400;
+  font-style: italic;
+}
+
+a:hover {
+  color: #ED1581;
+}
+
+.pink-highlight {
+  color: #ED1581;
+}
+
+/* scaffold */
+
+body {
+  background-color: white;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* components masthead*/
+
+.masthead {
+  height: 14em;
+  text-align: center;
+  border-bottom: dotted 1px #4E4E4E;
+  position: relative;
+}
+
+.header-pic {
+  position: absolute;
+
+}
+
+.headline {
+  margin: 0;
+  padding: 1em;
+  font-size: 4em;
+}
+
+
+/* components main*/
+
+.main {
+  width: 1280px;
+  margin: 3em auto;
+}
+.sidebar {
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+  margin-right: 14em;
+}
+
+.profile-pic {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.articles {
+  display: inline-block;
+  width: 740px;
+}
+
+.article-image {
+  position: relative;
+}
+
+.article-stinger-boom {
+  position: absolute;
+  top: 66em;
+  left: 46em;
+}
+.article-stinger-pow {
+  position: absolute;
+  width: 10em;
+  top: 42em;
+  left: 52em;
+}
+
+/* components footer*/
+
+.footer {
+  text-align: center;
+  height: 3em;
+  border-top: dotted 1px #4E4E4E;
+  margin: 0;
+  padding: 1.5em;
+  background-color: #F2F2F2;
+}
+
