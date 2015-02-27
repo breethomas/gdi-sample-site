@@ -65,7 +65,6 @@ body {
   font-size: 4em;
 }
 
-
 /* components main*/
 
 .main {
@@ -89,20 +88,20 @@ body {
   width: 740px;
 }
 
-.article-image {
+.image-container {
   position: relative;
 }
 
 .article-stinger-boom {
   position: absolute;
-  top: 66em;
-  left: 46em;
+  top: -4em;
+  left: 6em;
 }
 .article-stinger-pow {
   position: absolute;
   width: 10em;
-  top: 42em;
-  left: 52em;
+  top: 12em;
+  left: 6em;
 }
 
 /* components footer*/
