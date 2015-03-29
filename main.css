@@ -1,7 +1,7 @@
 /* typography */
 
 h1, h2, p, a {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 200;
 }
 
